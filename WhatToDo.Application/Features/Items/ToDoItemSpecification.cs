@@ -1,4 +1,4 @@
-﻿using WhatToDo.Core.Entities;
+﻿using WhatToDo.Domain.Entities;
 
 namespace WhatToDo.Application.Features.Items;
 

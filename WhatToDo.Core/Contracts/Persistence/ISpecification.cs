@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace WhatToDo.Core.Contracts.Persistence
+namespace WhatToDo.Domain.Contracts.Persistence
 {
     public interface ISpecification<T>
     {

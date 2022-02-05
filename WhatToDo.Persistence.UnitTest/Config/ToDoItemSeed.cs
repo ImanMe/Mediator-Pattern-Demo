@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using WhatToDo.Core.Entities;
+using WhatToDo.Domain.Entities;
 
 namespace WhatToDo.Persistence.UnitTest.Config;
 

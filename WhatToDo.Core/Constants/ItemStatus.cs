@@ -1,4 +1,4 @@
-﻿namespace WhatToDo.Core.Constants
+﻿namespace WhatToDo.Domain.Constants
 {
     public static class ItemStatus
     {

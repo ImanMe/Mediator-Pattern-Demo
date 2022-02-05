@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
-using WhatToDo.Core.Entities;
+using WhatToDo.Domain.Entities;
 
 namespace WhatToDo.Persistence
 {

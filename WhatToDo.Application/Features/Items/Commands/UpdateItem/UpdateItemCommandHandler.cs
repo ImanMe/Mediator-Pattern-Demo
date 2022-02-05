@@ -2,8 +2,8 @@
 using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using WhatToDo.Core.Contracts;
-using WhatToDo.Core.Entities;
+using WhatToDo.Domain.Contracts;
+using WhatToDo.Domain.Entities;
 
 namespace WhatToDo.Application.Features.Items.Commands.UpdateItem
 {

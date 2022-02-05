@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WhatToDo.Core\WhatToDo.Core.csproj" />
+    <ProjectReference Include="..\WhatToDo.Core\WhatToDo.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>

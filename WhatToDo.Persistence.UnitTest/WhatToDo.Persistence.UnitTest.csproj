@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WhatToDo.Core\WhatToDo.Core.csproj" />
+    <ProjectReference Include="..\WhatToDo.Core\WhatToDo.Domain.csproj" />
     <ProjectReference Include="..\WhatToDo.Persistence\WhatToDo.Persistence.csproj" />
   </ItemGroup>
 

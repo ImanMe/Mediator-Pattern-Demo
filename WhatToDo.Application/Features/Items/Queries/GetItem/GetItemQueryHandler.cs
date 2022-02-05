@@ -3,8 +3,8 @@ using System.Threading.Tasks;
 using AutoMapper;
 using MediatR;
 using WhatToDo.Application.Features.Items.Dtos;
-using WhatToDo.Core.Contracts;
-using WhatToDo.Core.Entities;
+using WhatToDo.Domain.Contracts;
+using WhatToDo.Domain.Entities;
 
 namespace WhatToDo.Application.Features.Items.Queries.GetItem;
 

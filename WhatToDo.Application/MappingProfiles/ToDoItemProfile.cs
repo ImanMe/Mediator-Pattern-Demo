@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using WhatToDo.Application.Features.Items.Dtos;
-using WhatToDo.Core.Entities;
+using WhatToDo.Domain.Entities;
 
 namespace WhatToDo.Application.MappingProfiles;
 

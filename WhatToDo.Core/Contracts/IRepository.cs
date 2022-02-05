@@ -1,7 +1,6 @@
-﻿using System.Linq.Expressions;
-using WhatToDo.Core.Contracts.Persistence;
+﻿using WhatToDo.Domain.Contracts.Persistence;
 
-namespace WhatToDo.Core.Contracts
+namespace WhatToDo.Domain.Contracts
 {
     public interface IRepository<T> where T : class
     {

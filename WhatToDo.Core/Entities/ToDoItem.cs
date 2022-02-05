@@ -1,6 +1,6 @@
-﻿using WhatToDo.Core.Constants;
+﻿using WhatToDo.Domain.Constants;
 
-namespace WhatToDo.Core.Entities
+namespace WhatToDo.Domain.Entities
 {
     public class ToDoItem : BaseEntity
     {

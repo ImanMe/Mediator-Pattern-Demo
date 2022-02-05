@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WhatToDo.Core.Contracts.Persistence;
-using WhatToDo.Core.Entities;
+using WhatToDo.Domain.Contracts.Persistence;
+using WhatToDo.Domain.Entities;
 
 namespace WhatToDo.Persistence
 {

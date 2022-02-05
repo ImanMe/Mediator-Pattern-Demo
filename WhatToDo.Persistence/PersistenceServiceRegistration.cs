@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using WhatToDo.Core.Contracts;
+using WhatToDo.Domain.Contracts;
 
 namespace WhatToDo.Persistence
 {
@@ -12,7 +12,6 @@ namespace WhatToDo.Persistence
             services.AddDbContext<WhatToDoContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("WhatToDoConnection")));
 
-            services.AddScoped<IToDoItemRepository, ToDoItemRepository>();
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             return services;
         }

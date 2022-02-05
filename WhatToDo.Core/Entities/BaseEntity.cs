@@ -1,4 +1,4 @@
-﻿namespace WhatToDo.Core.Entities
+﻿namespace WhatToDo.Domain.Entities
 {
     public class BaseEntity
     {
