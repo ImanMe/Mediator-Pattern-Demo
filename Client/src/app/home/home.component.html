@@ -1,0 +1,26 @@
+<div *ngIf="isDataLoaded" class="container">  
+  <div class="row">
+    <div class="col-md-6">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" [(ngModel)]="createItemObj.description" maxlength="40">
+        <span class="input-group-text cursor-pointer" id="basic-addon2" (click)="create()">ADD NEW</span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">       
+        <p class="error" [hidden]='!isDuplicate'>This item already exists in your list.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <app-to-do [items]="inCompletedTasks" [listTitle]="toDoList" (deleteItem)="onDelete($event)"
+        (completeItem)="onComplete($event)"></app-to-do>
+    </div>
+    <div class="col-md-6">
+      <app-to-do [items]="completedTasks" [listTitle]="completedList" (deleteItem)="onDelete($event)"></app-to-do>
+    </div>
+  </div>
+</div>
+
+<app-spinner *ngIf="!isDataLoaded"></app-spinner>
