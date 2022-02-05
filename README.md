@@ -1,6 +1,6 @@
-## WhatToDo - An assignment for Plooto 
+## Mediator-Pattern Demo
 
-[Live Demo](http://whattodoa.s3-website.ca-central-1.amazonaws.com/)
+> A demo project on .NET6, Angular 12, Mediator pattern, CQRS, Generic Repository with Specification Pattern, xUnit etc.
 
 
 > Please make sure you have Visual Studio 2022 and .Net 6 to run. No other setup is required. simply run the project from within Visual Studio. 
