@@ -19,7 +19,12 @@ builder.Services.AddApplicationServices();
 
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddHealthChecks()
+    .AddDbContextCheck<WhatToDoContext>();
+
 var app = builder.Build();
+
+app.MapHealthChecks("/health");
 
 app.UseCors(toDoCorsPolicy);
 
@@ -44,6 +49,8 @@ else
 app.UseHttpsRedirection();
 
 app.MapControllers();
+
+
 
 // Migrate database at runtime
 using var scope = app.Services.CreateScope();
