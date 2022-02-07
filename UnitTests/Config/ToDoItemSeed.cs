@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using WhatToDo.Domain.Entities;
 
-namespace WhatToDo.Persistence.UnitTest.Config;
+namespace UnitTests.Config;
 
 public class ToDoItemSeed
 {
